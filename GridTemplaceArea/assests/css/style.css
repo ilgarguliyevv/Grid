@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+display: grid;
+background-color: wheat;
+grid-template-columns: repeat(7, 1fr);
+grid-template-areas: "item1 item2 item2 item3 item3 item3 item4"
+"item5 item2 item2 item3 item3 item3 item6"
+"item7 item8 item9 item3 item3 item3 item10"
+"item11 item11 item11 item3 item3 item3 item12";
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    width: 300px;
+    height: 50px;
+}
+
+.content-1{
+    background-color: brown;
+    grid-area: content-1;
+}
+
+.content-2{
+    background-color:blueviolet ;
+    grid-area: content-2;
+}
+
+.content-3{
+    background-color: chocolate;
+    grid-area: content-3;
+}
+
+.content-4{
+    background-color: yellow;
+    grid-area: content-4;
+}
+
+.content-5{
+    background-color: greenyellow;
+    grid-area: content-5;
+}
+
+.content-6{
+    background-color: cornflowerblue;
+    grid-area: content-6;
+}
+
+.content-7{
+    background-color: springgreen;
+    grid-area: content-7;
+}
+
+.content-8{
+    background-color:yellowgreen ;
+    grid-area: content-8;
+}
+
+.content-9{
+background-color: aqua;
+grid-area: content-9;
+}
+
+.content-10{
+    background-color: aquamarine;
+    grid-area: content-10;
+}
+
+.content-11{
+    background-color: darkmagenta;
+    grid-area: content-11;
+}
+
+.content-12{
+    background-color: red;
+    grid-area: content-12;
+}
